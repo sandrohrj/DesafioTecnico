@@ -1,0 +1,72 @@
+﻿@{
+	ViewData["Title"] = "Fornecedores";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Listagem de Fornecedores</h1>
+
+	<br/>
+
+	<div class="d-grid gap-2 col-6 mx-auto">
+		<a class="btn btn-dark" role="button" asp-controller="Fornecedores" asp-action="Cadastrar">Cadastrar Fornecedor</a>
+	</div>
+	
+	<br/>
+
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Empresa</th>
+				<th scope="col">Nome</th>
+				<th scope="col">CPF/CNPJ</th>
+				<th scope="col">RG</th>
+				<th scope="col">Data de Nascimento</th>
+				<th scope="col">Data/Hora de Cadastro</th>
+				<th scope="col">Telefone</th>
+				<th scope="col"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Empresa 1</td>
+				<td>Fornecedor 1</td>
+				<td>000.111.222-33</td>
+				<td>5.555.555</td>
+				<td>01/01/01</td>
+				<td>29/05/2022 15:28</td>
+				<td>48 - 8888-8888</td>
+				<td><a role="button" class="btn btn-dark" asp-controller="Fornecedores" asp-action="Editar">Editar</a></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Empresa 2</td>
+				<td>Fornecedor 2</td>
+				<td>000.111.222-33</td>
+				<td></td>
+				<td></td>
+				<td>29/05/2022 15:28</td>
+				<td>48 - 8888-8888</td>
+				<td><a role="button" class="btn btn-dark" asp-controller="Fornecedores" asp-action="Editar">Editar</a></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>Empresa 3</td>
+				<td>Fornecedor 3</td>
+				<td>000.111.222-33</td>
+				<td>5.555.555</td>
+				<td>01/01/01</td>
+				<td>29/05/2022 15:28</td>
+				<td>48 - 8888-8888</td>
+				<td><a role="button" class="btn btn-dark" asp-controller="Fornecedores" asp-action="Editar">Editar</a></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br/>
+
+	<div class="d-grid gap-2 col-6 mx-auto">
+		<a class="btn btn-dark" role="button" asp-controller="Fornecedores" asp-action="Remover">Remover Fornecedor</a>
+	</div>
+</div>

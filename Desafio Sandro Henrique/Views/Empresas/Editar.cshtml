@@ -1,0 +1,34 @@
+﻿@{
+	ViewData["Title"] = "Editar Cadastro de Empresa";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Editar Cadastro de Empresa</h1>
+
+	<br />
+
+</div>
+
+<br />
+
+<form>
+	<div class="form-group">
+		<label for="exemploInputUf">UF</label>
+		<input type="text" class="form-control" id="exemploInputUf" placeholder="UF">
+	</div>
+	<br />
+	<div class="form-group">
+		<label for="exemploInputNomeFantasia">Nome Fantasia</label>
+		<input type="text" class="form-control" id="exemploInputNomeFantasia" placeholder="Nome Fantasia">
+	</div>
+	<br />
+	<div class="form-group">
+		<label for="exemploInputCNPJ">CNPJ</label>
+		<input type="text" class="form-control" id="exemploInputCNPJ" placeholder="CNPJ">
+	</div>
+	<br />
+	<button type="submit" class="btn btn-dark">Salvar</button>
+	<br />
+	<br />
+	<a role="button" class="btn btn-dark" asp-controller="Empresas" asp-action="Index">Voltar</a>
+</form>
