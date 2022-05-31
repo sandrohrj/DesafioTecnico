@@ -1,0 +1,6 @@
+C:\DesafioPredify\PredifyDesafio\PredifyDesafio\bin\Debug\PredifyDesafio.dacpac
+C:\DesafioPredify\PredifyDesafio\PredifyDesafio\bin\Debug\PredifyDesafio.dll
+C:\DesafioPredify\PredifyDesafio\PredifyDesafio\bin\Debug\PredifyDesafio.pdb
+C:\DesafioPredify\PredifyDesafio\PredifyDesafio\obj\Debug\PredifyDesafio.sqlproj.AssemblyReference.cache
+C:\DesafioPredify\PredifyDesafio\PredifyDesafio\obj\Debug\PredifyDesafio.dll
+C:\DesafioPredify\PredifyDesafio\PredifyDesafio\obj\Debug\PredifyDesafio.pdb
